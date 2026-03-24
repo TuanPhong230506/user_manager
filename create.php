@@ -8,21 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Form Đăng Ký</h2>
-    <form method = "POSt" action="xulydangky.php">
-        <label>UserName:</label>
-        <input type="text" name="Username" required> <br>
-
-        <label>Password:</label>
-        <input type="password" name="Password" require> <br>
-
-        <label>Role:</label>
-        <select name="Role" id="">
-            <option value="0">User</option>
-            <option value="1">Admin</option>
-        </select> <br>
-
-        <button type="submit" name="submit">Thêm Mới</button>
+    <form method = "POST" action="xulydangky.php" enctype="multipart/form-data">
+         <h2>Đăng Ký User</h2>
+        <table border="1">
+            <tr>
+                <td>UserName</td>
+                <td><input type="text" name="Username"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="Password"></td>
+            </tr>
+            <tr>
+                <td>Role</td>
+                <td>
+                    <select name="Role">
+                        <option value="0">User</option>
+                        <option value="1">Admin</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" name="submit">Thêm Mới</button></td>
+            </tr>
+        </table>        
     </form>
 </body>
 </html>

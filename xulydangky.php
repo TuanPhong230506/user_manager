@@ -13,4 +13,5 @@
             echo "Lỗi:".mysql_error($conn);
         }
     }
+    header('location:index.php');
 ?>
