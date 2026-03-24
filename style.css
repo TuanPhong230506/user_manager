@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Times New Roman;
+}
+
+/* Khung tổng */
+.admin {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+/* Header */
+.header {
+    background: #e6e6fa;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Menu bên trái */
+.menu {
+    width: 20%;
+    float: left;
+    background: #f0f0f0;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+/* Nội dung */
+.content {
+    width: 75%;
+    float: right;
+    padding: 15px;
+}
+
+/* Footer */
+.footer {
+    clear: both;
+    background: #e6e6fa;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Bảng */
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+th {
+    background: #ddd;
+}

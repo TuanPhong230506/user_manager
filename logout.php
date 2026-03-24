@@ -7,6 +7,6 @@ session_unset();
 // Hủy session
 session_destroy();
 
-//Quay về trang Login
+//Quay về trang Login Đitj mẹ Tuấn Phong 
 header("Location: login.php");
 ?>

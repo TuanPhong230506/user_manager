@@ -23,7 +23,7 @@ if (isset ($_POST['login'])){
             header("Location: index.php");//Chuyển sang trang User
         }
     }else{
-        echo "<p style ='color:red'>Sai Tên Đăng Nhập Hoặc Mật Khẩu!</p>"
+        echo "<p style ='color:red'>Sai Tên Đăng Nhập Hoặc Mật Khẩu!</p>";
     }
 }
 ?>
